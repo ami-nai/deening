@@ -65,6 +65,7 @@ async def login_user(body: LoginRequest, db: AsyncSession) -> dict:
         )
     
     return {
+        "username": user.username,
         "access_token": create_access_token(str(user.id)),
         "refresh_token": create_refresh_token(str(user.id)),
     }

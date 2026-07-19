@@ -1,0 +1,1 @@
+// Prayer log model

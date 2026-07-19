@@ -1,0 +1,1 @@
+// Daily prayer row widget

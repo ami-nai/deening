@@ -13,7 +13,16 @@ build/
 # Node
 node_modules/
 
+# Flutter
+frontend/.dart_tool/
+frontend/.packages
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/pubspec.lock
+
 # Environment variables
+frontend/.env
 .env
 .env.local
 
@@ -24,3 +33,7 @@ node_modules/
 
 # OS
 .DS_Store
+
+# Setup scripts and documentation
+FLUTTER_SETUP.md
+setup_frontend.sh
